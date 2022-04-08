@@ -1,0 +1,35 @@
+{
+  "name": "chao-designer",
+  "version": "2.1.7",
+  "description": "巢搭配店铺装修组件库",
+  "main": "lib/chao-designer.umd.min.js",
+  "style": "lib/chao-designer.css",
+  "private": false,
+  "scripts": {
+    "lib": "vue-cli-service build --target lib --name chao-designer --dest lib packages/index.js",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "dev": "vue-cli-service serve"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "normalize.css": "^8.0.1",
+    "vue": "^2.6.10",
+    "vue-drag-resize": "^1.4.2",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.5",
+    "@vue/cli-service": "^3.5.3",
+    "babel-plugin-import": "^1.11.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "node-sass": "^4.11.0",
+    "postcss-pxtorem": "^5.1.1",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
